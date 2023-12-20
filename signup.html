@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <style >
+            @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+}
+.FORM{
+    text-align: center;
+}
+.button{
+    margin-left: 155px;
+    background-color: rgb(12, 12, 168);
+}
+body{
+    border: 2px solid black;
+    border-radius: 7px;
+    height: 450px;
+    width: 350px;
+    padding: 10px;
+    margin-left:10px;
+}
+        </style>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+   <h1 style="color: red;">LOGIN TO YOUR ACCOUNT</h1> 
+   <form class="FORM">
+    <label for="text">SIGN UP:</label><br>
+    <input type="SIGN" id="SIGN" name="SIGN" value="USER NAME">
+    <br>
+    <br>
+    <label for=" new Password">CREATE A NEW PASSWORD:</label><br>
+    <input type="new password" id="new password" name="new password">
+    <br>
+    <br> 
+    <label for="password">PASSWORD:</label><br>
+    <input type="password" id="password" name="password">
+    <br>
+    <br>
+   </form>
+   <a href="{% url 'home'%}"class="button">
+    <button>Sign In</button>
+    </a>
+    <p><b>NOTE:</b> IF YOU FORGOT <i>PASSWORD</i>.CREATE NEW ACCOUNT FOLLOW THE RULES...<hr><br>THANKS FOR YOUR CO-OPERATION</p>
+
+</body>
+</html>
+
